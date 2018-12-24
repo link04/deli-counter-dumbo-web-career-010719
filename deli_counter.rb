@@ -15,6 +15,6 @@ def take_a_number(array, person)
   puts "Welcome, #{person}. You are number #{array.size()} in line."
 end
 
-def take_a_number
+def now_serving
   
 end
