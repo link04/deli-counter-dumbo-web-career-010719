@@ -6,6 +6,6 @@ def line (array)
     array.each do |costumer|
       line = line + "#{array.index(costumer) + 1}. #{costumer}"
     end
-     puts "The line is currently: #{array2}"
+     puts "The line is currently: #{line}"
   end
 end
