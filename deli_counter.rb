@@ -6,4 +6,5 @@ def line (array)
     array.each do |costumer|
       puts "#{array.index(costumer) + 1}. #{costumer}"
     end
+  end
 end
