@@ -4,6 +4,6 @@ def line (array)
   else
     puts "The line is currently:"
     array.each do |costumer|
-      puts "#{array.index}"
+      puts "#{array.index(costumer) + 1}"
     end
 end
