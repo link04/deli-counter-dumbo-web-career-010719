@@ -5,6 +5,6 @@ def line (array)
   
     array.cycle {|costumer|  puts "#{array.index(costumer) + 1}. #{costumer}"}
      
-    end
+
   end
 end
