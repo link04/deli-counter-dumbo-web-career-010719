@@ -6,7 +6,7 @@ def line (array)
    array2 << "The line is currently: "
     array.each do |costumer|
       array2 << "#{array.index(costumer) + 1}. #{costumer}"
-      puts 
     end
+    puts array2
   end
 end
