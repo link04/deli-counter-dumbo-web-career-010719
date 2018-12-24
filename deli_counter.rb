@@ -15,8 +15,9 @@ def take_a_number(array, person)
   puts "Welcome, #{person}. You are number #{array.size()} in line."
 end
 
-def now_serving(array)
-  if array.size() = 0 
+def now_serving(a
+  rray)
+  if array.size() == 0 
     puts "The line is currently empty."
   else
     puts "Now serving #{array.shift}."
