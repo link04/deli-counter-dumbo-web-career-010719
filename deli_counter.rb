@@ -3,7 +3,7 @@ def line (array)
     puts "The line is currently empty."
   else
     puts "The line is currently: "
-    array.each do |costumer|
+    array.cycle do |costumer|
       puts "#{array.index(costumer) + 1}. #{costumer}"
     end
   end
