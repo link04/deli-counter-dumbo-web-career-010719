@@ -16,5 +16,9 @@ def take_a_number(array, person)
 end
 
 def now_serving(array)
-  
+  if array.size = 0 
+    puts "The line is currently empty."
+  else
+    puts "Now serving #{array.shift}"
+  end
 end
